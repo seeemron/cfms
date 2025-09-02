@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "cd client && yarn install && yarn build && cp -r build/* ../public/",
-    "postinstall": "echo postinstall",
+    "postinstall": "echo postinstall"
   }
   "dependencies": {
     "express": "^4.18.2",
